@@ -9,6 +9,6 @@
 ([彩色版](paper/有限长圆柱体磁异常场全空间正演方法-彩色版手稿.pdf)) [郭志馗, 陈超, 陶春辉, & 胡正旺. (2017). 有限长圆柱体磁异常场全空间正演方法. 地球物理学报, 60(4), 1557-1570.](paper/有限长圆柱体磁异常场全空间正演方法-地球物理学报.pdf)
 
 
-<img src="figure/VerticalCylinder.jpg"  height=300>
-<img src="figure/MultiTube.jpg"  height=300>
-<img src="figure/MultiTube-mag.jpg" height=300>
+<img src="figure/VerticalCylinder.jpg"  height=200>
+<img src="figure/MultiTube.jpg"  height=200>
+<img src="figure/MultiTube-mag.jpg" height=200>
