@@ -1,0 +1,10 @@
+﻿生成启动时间为 2015/12/10 9:54:40。
+     1>项目“H:\Study\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\重磁三维基本处理\重磁三维基本处理DLL\重磁三维基本处理DLL\重磁三维基本处理DLL.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>Link:
+         重磁三维基本处理DLL.vcxproj -> H:\Study\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\Dll目录\release\重磁三维基本处理DLL.dll
+     1>已完成生成项目“H:\Study\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\重磁三维基本处理\重磁三维基本处理DLL\重磁三维基本处理DLL\重磁三维基本处理DLL.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.04

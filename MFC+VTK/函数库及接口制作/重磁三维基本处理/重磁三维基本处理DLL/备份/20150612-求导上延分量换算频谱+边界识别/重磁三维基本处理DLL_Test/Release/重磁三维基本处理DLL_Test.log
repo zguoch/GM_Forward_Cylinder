@@ -1,0 +1,17 @@
+﻿生成启动时间为 2015/6/11 17:00:19。
+     1>项目“E:\Study\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\重磁三维基本处理\重磁三维基本处理DLL\重磁三维基本处理DLL_Test\重磁三维基本处理DLL_Test.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\Study\重磁数据处理软件系统开发\程序模块及系统\include" /I"E:\Study\重磁数据处理软件系统开发\程序模块及系统\include\DLL用头文件" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "重磁三维基本处理Test.cpp"
+         重磁三维基本处理Test.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>E:\Study\重磁数据处理软件系统开发\程序模块及系统\include\GMDPS_proj.h(107): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Study\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\Dll目录\release\重磁三维基本处理DLL_Test.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Study\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\Dll目录\release\重磁三维基本处理DLL_Test.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Study\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\Dll目录\release\重磁三维基本处理DLL_Test.lib" /MACHINE:X86 /SAFESEH "Release\重磁三维基本处理Test.obj"
+         "..\Debug\重磁三维基本处理DLL.lib"
+         Compiler terminating.  Please wait........... Abort complete.
+     1>已完成生成项目“E:\Study\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\重磁三维基本处理\重磁三维基本处理DLL\重磁三维基本处理DLL_Test\重磁三维基本处理DLL_Test.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:04.29

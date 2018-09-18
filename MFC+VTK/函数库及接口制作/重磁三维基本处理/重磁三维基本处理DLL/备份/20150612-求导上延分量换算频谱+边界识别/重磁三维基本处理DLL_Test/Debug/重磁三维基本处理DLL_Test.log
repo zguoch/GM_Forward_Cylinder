@@ -1,0 +1,16 @@
+﻿生成启动时间为 2015/2/1 13:59:48。
+     1>项目“E:\学习\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\重磁三维基本处理\重磁三维基本处理DLL\重磁三维基本处理DLL_Test\重磁三维基本处理DLL_Test.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"E:\学习\重磁数据处理软件系统开发\程序模块及系统\include" /I"E:\学习\重磁数据处理软件系统开发\程序模块及系统\include\DLL用头文件" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "重磁三维基本处理Test.cpp"
+         重磁三维基本处理Test.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\学习\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\重磁三维基本处理\重磁三维基本处理DLL\Debug\重磁三维基本处理DLL_Test.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\学习\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\重磁三维基本处理\重磁三维基本处理DLL\Debug\重磁三维基本处理DLL_Test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\学习\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\重磁三维基本处理\重磁三维基本处理DLL\Debug\重磁三维基本处理DLL_Test.lib" /MACHINE:X86 "Debug\重磁三维基本处理Test.obj"
+         "..\Debug\重磁三维基本处理DLL.lib"
+     1>LINK : warning LNK4233: 名称 重磁三维基本处理DLL.dll 包含非 ASCII 字符，如果系统没有与用于链接此 DLL 的相同的 ANSI 代码页，则不能加载该 DLL
+         重磁三维基本处理DLL_Test.vcxproj -> E:\学习\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\重磁三维基本处理\重磁三维基本处理DLL\Debug\重磁三维基本处理DLL_Test.exe
+     1>已完成生成项目“E:\学习\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\重磁三维基本处理\重磁三维基本处理DLL\重磁三维基本处理DLL_Test\重磁三维基本处理DLL_Test.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.64

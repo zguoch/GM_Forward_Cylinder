@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "重磁三维基本处理DLL", "重磁三维基本处理DLL\重磁三维基本处理DLL.vcxproj", "{B83E3FF7-3713-4A47-BB4D-864B7559636B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "重磁三维基本处理DLL_Test", "重磁三维基本处理DLL_Test\重磁三维基本处理DLL_Test.vcxproj", "{B268C9A2-A754-43F1-8AFB-DCB417CA80F6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B83E3FF7-3713-4A47-BB4D-864B7559636B} = {B83E3FF7-3713-4A47-BB4D-864B7559636B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B83E3FF7-3713-4A47-BB4D-864B7559636B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B83E3FF7-3713-4A47-BB4D-864B7559636B}.Debug|Win32.Build.0 = Debug|Win32
+		{B83E3FF7-3713-4A47-BB4D-864B7559636B}.Release|Win32.ActiveCfg = Release|Win32
+		{B83E3FF7-3713-4A47-BB4D-864B7559636B}.Release|Win32.Build.0 = Release|Win32
+		{B268C9A2-A754-43F1-8AFB-DCB417CA80F6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B268C9A2-A754-43F1-8AFB-DCB417CA80F6}.Debug|Win32.Build.0 = Debug|Win32
+		{B268C9A2-A754-43F1-8AFB-DCB417CA80F6}.Release|Win32.ActiveCfg = Release|Win32
+		{B268C9A2-A754-43F1-8AFB-DCB417CA80F6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

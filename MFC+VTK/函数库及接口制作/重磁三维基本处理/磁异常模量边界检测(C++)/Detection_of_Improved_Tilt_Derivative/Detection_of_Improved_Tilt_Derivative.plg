@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Detection_of_Improved_Tilt_Derivative - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\shxzhang\AppData\Local\Temp\RSP43D9.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Detection_of_Improved_Tilt_Derivative.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\shxzhang\Desktop\磁异常模量边界检测(C++)\Detection_of_Improved_Tilt_Derivative\Detection_of_Improved_Tilt_Derivative.cpp"
+]
+Creating command line "cl.exe @C:\Users\shxzhang\AppData\Local\Temp\RSP43D9.tmp" 
+<h3>Output Window</h3>
+Compiling...
+Detection_of_Improved_Tilt_Derivative.cpp
+C:\Users\shxzhang\Desktop\磁异常模量边界检测(C++)\Detection_of_Improved_Tilt_Derivative\Detection_of_Improved_Tilt_Derivative.cpp(37) : error C2448: '<Unknown>' : function-style initializer appears to be a function definition
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+Detection_of_Improved_Tilt_Derivative.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
