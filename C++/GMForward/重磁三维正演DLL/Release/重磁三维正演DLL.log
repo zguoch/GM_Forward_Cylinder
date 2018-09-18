@@ -1,0 +1,39 @@
+﻿生成启动时间为 2016/10/12 23:02:26。
+     1>项目“F:\Study\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\重磁三维正演\重磁三维正演DLL\重磁三维正演DLL\重磁三维正演DLL.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\include /I"..\..\..\include\DLL用头文件" /I"F:\Study\重磁数据处理软件系统开发\程序模块及系统\include\DLL用头文件" /I"F:\Study\重磁数据处理软件系统开发\程序模块及系统\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /D _CRT_SECURE_NO_WARNINGS GM3DForward.cpp
+         GM3DForward.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>F:\Study\重磁数据处理软件系统开发\程序模块及系统\include\GMDPS_proj.h(112): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+     1>GM3DForward.cpp(6253): warning C4552: “-”: 运算符不起任何作用；应输入带副作用的运算符
+     1>GM3DForward.cpp(6443): warning C4552: “-”: 运算符不起任何作用；应输入带副作用的运算符
+     1>GM3DForward.cpp(6616): warning C4552: “-”: 运算符不起任何作用；应输入带副作用的运算符
+     1>GM3DForward.cpp(6789): warning C4552: “-”: 运算符不起任何作用；应输入带副作用的运算符
+     1>GM3DForward.cpp(6962): warning C4552: “-”: 运算符不起任何作用；应输入带副作用的运算符
+     1>GM3DForward.cpp(7150): warning C4552: “-”: 运算符不起任何作用；应输入带副作用的运算符
+     1>GM3DForward.cpp(7341): warning C4552: “-”: 运算符不起任何作用；应输入带副作用的运算符
+     1>GM3DForward.cpp(7532): warning C4552: “-”: 运算符不起任何作用；应输入带副作用的运算符
+     1>GM3DForward.cpp(7720): warning C4552: “-”: 运算符不起任何作用；应输入带副作用的运算符
+     1>GM3DForward.cpp(7907): warning C4552: “-”: 运算符不起任何作用；应输入带副作用的运算符
+     1>GM3DForward.cpp(8122): warning C4552: “-”: 运算符不起任何作用；应输入带副作用的运算符
+     1>GM3DForward.cpp(8333): warning C4552: “-”: 运算符不起任何作用；应输入带副作用的运算符
+     1>GM3DForward.cpp(8544): warning C4552: “-”: 运算符不起任何作用；应输入带副作用的运算符
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Study\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\Dll目录\release\重磁三维正演DLL.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"H:\Study\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\Dll目录\release" /LIBPATH:"F:\Study\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\Dll目录\release" uafxcwd.lib LIBCMTD.lib "libfftw3-3.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Study\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\Dll目录\release\重磁三维正演DLL.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Study\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\Dll目录\release\重磁三维正演DLL.lib" /MACHINE:X86 /SAFESEH /DLL Release\FFTN.obj
+         Release\GMDPS_proj.obj
+         Release\GMFile.obj
+         Release\GM3DForward.obj
+            正在创建库 F:\Study\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\Dll目录\release\重磁三维正演DLL.lib 和对象 F:\Study\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\Dll目录\release\重磁三维正演DLL.exp
+     1>LINK : warning LNK4232: 名称 重磁三维正演DLL.dll 包含非 ASCII 字符，在具有除 936 以外的 ANSI 代码页的系统上可能不能加载 DLL
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: 默认库“uafxcw.lib”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         正在生成代码
+     1>f:\study\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\重磁三维正演\重磁三维正演dll\重磁三维正演dll\gm3dforward.cpp(8740): warning C4700: 使用了未初始化的局部变量“Hazz”
+         已完成代码的生成
+         重磁三维正演DLL.vcxproj -> F:\Study\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\Dll目录\release\重磁三维正演DLL.dll
+     1>已完成生成项目“F:\Study\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\重磁三维正演\重磁三维正演DLL\重磁三维正演DLL\重磁三维正演DLL.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.86

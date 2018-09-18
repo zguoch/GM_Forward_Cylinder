@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{26CD6745-649C-47CF-9844-A612CE47FA65}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>重磁三维正演DLL</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>E:\study\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\Dll目录</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>F:\Study\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\Dll目录\release</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;DLL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\VTK6.0.0\VTK\Filters\Sources;D:\VTK6.0.0\VTK\Rendering\Core;D:\VTK6.0.0\bin\Filters\Sources;D:\VTK6.0.0\VTK\Common\ExecutionModel;D:\VTK6.0.0\bin\Common\ExecutionModel;D:\VTK6.0.0\VTK\Common\Core;D:\VTK6.0.0\bin\Common\Core;D:\VTK6.0.0\VTK\Common\DataModel;D:\VTK6.0.0\bin\Common\DataModel;D:\VTK6.0.0\bin\Rendering\Core;D:\VTK6.0.0\bin\Filters\Extraction;D:\VTK6.0.0\bin\Filters\Statistics;D:\VTK6.0.0\bin\IO\Image;D:\VTK6.0.0\bin\Rendering\LOD;D:\VTK6.0.0\VTK\Rendering\Annotation;D:\VTK6.0.0\bin\Rendering\Annotation;D:\VTK6.0.0\bin\Rendering\FreeType;D:\VTK6.0.0\VTK\Filters\Core;D:\VTK6.0.0\bin\Filters\Core;D:\VTK6.0.0\VTK\Rendering\OpenGL;D:\VTK6.0.0\VTK\Views\Context2D;D:\VTK6.0.0\bin\Rendering\OpenGL;D:\VTK6.0.0\VTK\Interaction\Style;D:\VTK6.0.0\VTK\Filters\General;D:\VTK6.0.0\bin\Imaging\Hybrid;D:\VTK6.0.0\bin\Views\Context2D;D:\VTK6.0.0\bin\Rendering\Context2D;D:\VTK6.0.0\bin\Views\Core;D:\VTK6.0.0\bin\Interaction\Widgets;D:\VTK6.0.0\bin\Filters\Hybrid;D:\VTK6.0.0\bin\Interaction\Style;D:\VTK6.0.0\bin\Rendering\Volume;D:\VTK6.0.0\VTK\Views\Core;D:\VTK6.0.0\VTK\Common\Misc;D:\VTK6.0.0\bin\Common\Misc;D:\VTK6.0.0\bin\Filters\General;D:\VTK6.0.0\VTK\Filters\Modeling;D:\VTK6.0.0\VTK\Filters\Geometry;D:\VTK6.0.0\bin\Filters\Modeling;D:\VTK6.0.0\bin\Filters\Geometry;D:\VTK6.0.0\bin\CMakeFiles;D:\VTK6.0.0\VTK\IO\XML;D:\VTK6.0.0\bin\IO\XML;D:\VTK6.0.0\bin\IO\Geometry;D:\VTK6.0.0\VTK\Rendering\Label;D:\VTK6.0.0\bin\Rendering\Label;D:\VTK6.0.0\VTK\Charts\Core;D:\VTK6.0.0\bin\Charts\Core;D:\VTK6.0.0\bin\Infovis\Core;D:\VTK6.0.0\VTK\Rendering\Context2D;D:\VTK6.0.0\VTK\Common\Math;D:\VTK6.0.0\VTK\Rendering\FreeType;D:\VTK6.0.0\VTK\Filters\Hybrid;D:\VTK6.0.0\VTK\IO\Image;D:\VTK6.0.0\VTK\IO\Legacy;D:\VTK6.0.0\bin\IO\Legacy;D:\VTK6.0.0\VTK\Filters\Parallel;D:\VTK6.0.0\bin\Filters\Parallel;D:\VTK6.0.0\VTK\IO\Geometry;D:\VTK6.0.0\VTK\IO\Core;D:\VTK6.0.0\bin\IO\Core;D:\VTK6.0.0\VTK\Rendering\Volume;D:\VTK6.0.0\VTK\Filters\HyperTree;D:\VTK6.0.0\bin\Filters\HyperTree;D:\VTK6.0.0\bin\Utilities\KWSys;D:\VTK6.0.0\VTK\Rendering\LOD;E:\study\重磁数据处理软件系统开发\程序模块及系统\include;E:\study\重磁数据处理软件系统开发\程序模块及系统\include\DLL用头文件;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalOptions>/D _CRT_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>uafxcwd.lib;LIBCMTD.lib;libfftw3-3.lib</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBCMTD.lib;uafxcwd.lib;uafxcwd.lib</IgnoreSpecificDefaultLibraries>
+      <AdditionalLibraryDirectories>E:\Study\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\Dll目录;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;DLL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\include;..\..\..\include\DLL用头文件;F:\Study\重磁数据处理软件系统开发\程序模块及系统\include\DLL用头文件;F:\Study\重磁数据处理软件系统开发\程序模块及系统\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalOptions>/D _CRT_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>uafxcwd.lib;LIBCMTD.lib;libfftw3-3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>H:\Study\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\Dll目录\release;F:\Study\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\Dll目录\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\include\FFTN.cpp" />
+    <ClCompile Include="..\..\..\..\include\GMDPS_proj.cpp" />
+    <ClCompile Include="..\..\..\..\include\GMFile.cpp" />
+    <ClCompile Include="GM3DForward.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\include\DLL用头文件\GM3DForward.h" />
+    <ClInclude Include="..\..\..\..\include\FFTN.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,23 @@
+﻿生成启动时间为 2016/10/12 23:02:19。
+     1>项目“F:\Study\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\重磁三维正演\重磁三维正演DLL\测试DLL\测试DLL.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"F:\Study\重磁数据处理软件系统开发\程序模块及系统\include" /I"F:\Study\重磁数据处理软件系统开发\程序模块及系统\include\DLL用头文件" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /D _CRT_SECURE_NO_WARNINGS TestDLL.cpp
+         TestDLL.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>F:\Study\重磁数据处理软件系统开发\程序模块及系统\include\GMDPS_proj.h(112): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+     1>TestDLL.cpp(159): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\Dll目录\release\测试DLL.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"F:\Study\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\Dll目录\release" "重磁三维正演DLL.lib" "libfftw3-3.lib" comsupp.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"..\..\..\Dll目录\release\测试DLL.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\Dll目录\release\测试DLL.lib" /MACHINE:X86 /SAFESEH Release\FFTN.obj
+         Release\GMDPS_proj.obj
+         Release\GMFile.obj
+         Release\TestDLL.obj
+     1>LINK : warning LNK4233: 名称 重磁三维正演DLL.dll 包含非 ASCII 字符，如果系统没有与用于链接此 DLL 的相同的 ANSI 代码页，则不能加载该 DLL
+         正在生成代码
+         已完成代码的生成
+         测试DLL.vcxproj -> F:\Study\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\重磁三维正演\重磁三维正演DLL\测试DLL\..\..\..\Dll目录\release\测试DLL.exe
+     1>已完成生成项目“F:\Study\重磁数据处理软件系统开发\程序模块及系统\函数库及接口制作\重磁三维正演\重磁三维正演DLL\测试DLL\测试DLL.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.64
